@@ -1,0 +1,12 @@
+:80 {
+	root * /www
+	handle {
+		rewrite * /404.html
+		file_server
+	}
+
+	route {
+		error 404
+	}
+}
+

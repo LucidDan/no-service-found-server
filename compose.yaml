@@ -1,0 +1,6 @@
+services:
+  no-page-server:
+    build: .
+    ports:
+      - "8080:80"
+
